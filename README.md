@@ -46,7 +46,7 @@ Fragmenty stacku, którego używam w komercyjnych wdrożeniach — bierz i używ
 |---|---|---|---|
 | **[threejs-product-configurator-starter](https://github.com/GronskiDeveloper/threejs-product-configurator-starter)** · [live demo →](https://gronskideveloper.github.io/threejs-product-configurator-starter/) | Minimalny konfigurator produktu 3D — parametryczna geometria, wybór wykończenia, wycena na żywo | Three.js · WebGL | [CLAUDE.md](https://github.com/GronskiDeveloper/threejs-product-configurator-starter/blob/main/CLAUDE.md) |
 | **[claude-chat-widget](https://github.com/GronskiDeveloper/claude-chat-widget)** · [UI preview →](https://gronskideveloper.github.io/claude-chat-widget/showcase.html) | Chatbot AI na stronę firmową: bezpieczne proxy PHP (klucz API zostaje na serwerze) + widget vanilla JS ~6 KB | PHP 8.1 · Claude API | [CLAUDE.md](https://github.com/GronskiDeveloper/claude-chat-widget/blob/main/CLAUDE.md) · [CASE_STUDY](https://github.com/GronskiDeveloper/claude-chat-widget/blob/main/CASE_STUDY.md) |
-| **[claude-chat-react](https://github.com/GronskiDeveloper/claude-chat-react)** | Reactowy chatbot AI: komponent + hook `useClaudeStream`, TypeScript, ~8 KB gzipped, zero runtime deps poza React | React 18+ · TypeScript · Claude API | [CLAUDE.md](https://github.com/GronskiDeveloper/claude-chat-react/blob/main/CLAUDE.md) |
+| **[claude-chat-react](https://github.com/GronskiDeveloper/claude-chat-react)** · [`npm i @grodev/claude-chat-react` ↗](https://www.npmjs.com/package/@grodev/claude-chat-react) | Reactowy chatbot AI: komponent + hook `useClaudeStream`, TypeScript, ~8 KB gzipped, zero runtime deps poza React. **Opublikowany na npm.** | React 18+ · TypeScript · Claude API | [CLAUDE.md](https://github.com/GronskiDeveloper/claude-chat-react/blob/main/CLAUDE.md) |
 | **[booking-slots-php](https://github.com/GronskiDeveloper/booking-slots-php)** | Silnik wolnych terminów dla systemów rezerwacji — godziny otwarcia + istniejące rezerwacje ⇒ wolne sloty | PHP 8.1 · Laravel-ready | [CLAUDE.md](https://github.com/GronskiDeveloper/booking-slots-php/blob/main/CLAUDE.md) |
 | **[woocommerce-custom-product-data](https://github.com/GronskiDeveloper/woocommerce-custom-product-data)** | Plugin WordPress: konfiguracja produktu do koszyka i zamówienia — most między konfiguratorem 3D a WooCommerce | PHP · WordPress | [CLAUDE.md](https://github.com/GronskiDeveloper/woocommerce-custom-product-data/blob/main/CLAUDE.md) |
 
@@ -69,6 +69,7 @@ Fragmenty stacku, którego używam w komercyjnych wdrożeniach — bierz i używ
 ## Znajdź mnie
 
 [![grodev.pl](https://img.shields.io/badge/Website-grodev.pl-1D9E75?style=flat-square&logo=googlechrome&logoColor=white)](https://grodev.pl)
+[![npm](https://img.shields.io/badge/npm-@grodev-CB0000?style=flat-square&logo=npm&logoColor=white)](https://www.npmjs.com/~grodev)
 [![Dev.to](https://img.shields.io/badge/Dev.to-@gronskideveloper-000000?style=flat-square&logo=devdotto&logoColor=white)](https://dev.to/gronskideveloper)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Dominik_Groński-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/grodev)
 [![LinkedIn Company](https://img.shields.io/badge/LinkedIn-GroDev_(firma)-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/grodev-pl)
