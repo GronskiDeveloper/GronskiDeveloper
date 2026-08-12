@@ -16,6 +16,7 @@ Pracuję z **Claude Code (Anthropic)** jako codzienne narzędzie — nie jako ga
 
 Rozszerzone materiały:
 
+- 📝 **[Full write-up on Dev.to → *How I document my AI-first workflow in every public repo*](https://dev.to/gronskideveloper/how-i-document-my-ai-first-workflow-in-every-public-repo-4l0h)** — dłuższy artykuł EN pokazujący cały wzorzec (CLAUDE.md + case study + agent commands) na przykładzie 5 działających repo.
 - **[Case study — jak powstał `claude-chat-widget`](https://github.com/GronskiDeveloper/claude-chat-widget/blob/main/CASE_STUDY.md)** — pełna retrospektywa jednego repo, krok po kroku: threat model → wyciągnięcie dokładnego kształtu SDK (nie zgadywanie) → draft AI → audyt linia po linii → hardening → weryfikacja w prawdziwej przeglądarce → dokumentacja. Pokazuje realny podział pracy, nie ogólniki.
 - **[Konfiguracja agenta — `.claude/commands/security-review.md`](https://github.com/GronskiDeveloper/claude-chat-widget/blob/main/.claude/commands/security-review.md)** — slash-command wymuszający listę 6 niezmienników bezpieczeństwa przed każdą zmianą w proxy. Przykład, jak automatyzuję powtarzalny code review przez konfigurację, nie przez dyscyplinę.
 
