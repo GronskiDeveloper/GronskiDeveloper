@@ -6,6 +6,21 @@ Full-stack developer z Poznania. Właściciel **[GroDev](https://grodev.pl)** �
 
 Laravel · PHP 8.3 · MySQL · Three.js (WebGL) · Tailwind · WooCommerce · Python/Qt · Claude API
 
+## AI-first workflow
+
+Pracuję z **Claude Code (Anthropic)** jako codzienne narzędzie — nie jako gadżet. Każde publiczne repo poniżej zawiera:
+
+- **`CLAUDE.md`** — dosłowna tabela „co zrobił człowiek, co zrobiła AI" dla każdej warstwy projektu, wraz z listą rzeczy, które **odrzuciłem** z draftu AI i dlaczego. Autorstwo widoczne, nie deklarowane.
+- **Notatki weryfikacyjne** — konkretne kroki, którymi sprawdziłem output AI (lint, ręczne testy w przeglądarce, wywołania po instalacji), zapisane obok kodu.
+- **Znane pułapki** (`Known gotchas`) — miejsca, gdzie następna iteracja AI zrobiłaby coś głupiego, i wprost napisane co „nie". Chroni to zarówno mnie, jak i model na kolejnym przebiegu.
+
+Rozszerzone materiały:
+
+- **[Case study — jak powstał `claude-chat-widget`](https://github.com/GronskiDeveloper/claude-chat-widget/blob/main/CASE_STUDY.md)** — pełna retrospektywa jednego repo, krok po kroku: threat model → wyciągnięcie dokładnego kształtu SDK (nie zgadywanie) → draft AI → audyt linia po linii → hardening → weryfikacja w prawdziwej przeglądarce → dokumentacja. Pokazuje realny podział pracy, nie ogólniki.
+- **[Konfiguracja agenta — `.claude/commands/security-review.md`](https://github.com/GronskiDeveloper/claude-chat-widget/blob/main/.claude/commands/security-review.md)** — slash-command wymuszający listę 6 niezmienników bezpieczeństwa przed każdą zmianą w proxy. Przykład, jak automatyzuję powtarzalny code review przez konfigurację, nie przez dyscyplinę.
+
+**Filozofia:** AI to szybki pisarz i rozsądny recenzent. Autorytet decyzyjny (architektura, threat model, walidacja, dobór zależności, co **odrzucić**) zostaje po stronie człowieka. Repo, w którym to się myli, sypie w produkcji — nawet jeśli `lint` przechodzi.
+
 ## Konfiguratory produktowe 3D
 
 Prawdziwe wdrożenia dla polskich producentów, każdy 100% na zamówienie:
@@ -26,12 +41,12 @@ Wszystkie: **Three.js + PWA + eksport do PDF/email + integracja WooCommerce/CRM*
 
 Fragmenty stacku, którego używam w komercyjnych wdrożeniach — bierz i używaj:
 
-| Repo | Co to jest | Stack |
-|---|---|---|
-| **[threejs-product-configurator-starter](https://github.com/GronskiDeveloper/threejs-product-configurator-starter)** · [live demo →](https://gronskideveloper.github.io/threejs-product-configurator-starter/) | Minimalny konfigurator produktu 3D — parametryczna geometria, wybór wykończenia, wycena na żywo | Three.js · WebGL |
-| **[claude-chat-widget](https://github.com/GronskiDeveloper/claude-chat-widget)** | Chatbot AI na stronę firmową: bezpieczne proxy PHP (klucz API zostaje na serwerze) + widget vanilla JS ~6 KB | PHP 8.1 · Claude API |
-| **[booking-slots-php](https://github.com/GronskiDeveloper/booking-slots-php)** | Silnik wolnych terminów dla systemów rezerwacji — godziny otwarcia + istniejące rezerwacje ⇒ wolne sloty | PHP 8.1 · Laravel-ready |
-| **[woocommerce-custom-product-data](https://github.com/GronskiDeveloper/woocommerce-custom-product-data)** | Plugin WordPress: konfiguracja produktu do koszyka i zamówienia — most między konfiguratorem 3D a WooCommerce | PHP · WordPress |
+| Repo | Co to jest | Stack | AI-first |
+|---|---|---|---|
+| **[threejs-product-configurator-starter](https://github.com/GronskiDeveloper/threejs-product-configurator-starter)** · [live demo →](https://gronskideveloper.github.io/threejs-product-configurator-starter/) | Minimalny konfigurator produktu 3D — parametryczna geometria, wybór wykończenia, wycena na żywo | Three.js · WebGL | [CLAUDE.md](https://github.com/GronskiDeveloper/threejs-product-configurator-starter/blob/main/CLAUDE.md) |
+| **[claude-chat-widget](https://github.com/GronskiDeveloper/claude-chat-widget)** · [UI preview →](https://gronskideveloper.github.io/claude-chat-widget/showcase.html) | Chatbot AI na stronę firmową: bezpieczne proxy PHP (klucz API zostaje na serwerze) + widget vanilla JS ~6 KB | PHP 8.1 · Claude API | [CLAUDE.md](https://github.com/GronskiDeveloper/claude-chat-widget/blob/main/CLAUDE.md) · [CASE_STUDY](https://github.com/GronskiDeveloper/claude-chat-widget/blob/main/CASE_STUDY.md) |
+| **[booking-slots-php](https://github.com/GronskiDeveloper/booking-slots-php)** | Silnik wolnych terminów dla systemów rezerwacji — godziny otwarcia + istniejące rezerwacje ⇒ wolne sloty | PHP 8.1 · Laravel-ready | [CLAUDE.md](https://github.com/GronskiDeveloper/booking-slots-php/blob/main/CLAUDE.md) |
+| **[woocommerce-custom-product-data](https://github.com/GronskiDeveloper/woocommerce-custom-product-data)** | Plugin WordPress: konfiguracja produktu do koszyka i zamówienia — most między konfiguratorem 3D a WooCommerce | PHP · WordPress | [CLAUDE.md](https://github.com/GronskiDeveloper/woocommerce-custom-product-data/blob/main/CLAUDE.md) |
 
 ## Usługi
 
