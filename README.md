@@ -22,9 +22,9 @@ Rozszerzone materiały:
 
 **Filozofia:** AI to szybki pisarz i rozsądny recenzent. Autorytet decyzyjny (architektura, threat model, walidacja, dobór zależności, co **odrzucić**) zostaje po stronie człowieka. Repo, w którym to się myli, sypie w produkcji — nawet jeśli `lint` przechodzi.
 
-## Konfiguratory produktowe 3D
+## Konfiguratory produktowe 3D — dema pokazowe
 
-Prawdziwe wdrożenia dla polskich producentów, każdy 100% na zamówienie:
+Dziewięć w pełni funkcjonalnych **dem prezentujących mój warsztat** — każde to działający konfigurator, gotowy do dostosowania pod konkretną firmę. **Nowa firma (JDG od 05.2026), pierwsi klienci właśnie kwalifikowani** — jeśli szukasz konfiguratora dla swojej produkcji, pisz.
 
 - 🏊 [basen3d.grodev.pl](https://basen3d.grodev.pl) — konfigurator basenów
 - 🚪 [brama3d.grodev.pl](https://brama3d.grodev.pl) — bramy segmentowe
@@ -36,7 +36,7 @@ Prawdziwe wdrożenia dla polskich producentów, każdy 100% na zamówienie:
 - 🎪 [zadaszenie3d.grodev.pl](https://zadaszenie3d.grodev.pl) — zadaszenia tarasu
 - 🎯 [kasetony3d.grodev.pl](https://kasetony3d.grodev.pl) — kasetony reklamowe
 
-Wszystkie: **Three.js + PWA + eksport do PDF/email + integracja WooCommerce/CRM**.
+Stack każdego demo: **Three.js + PWA + eksport do PDF/email + integracja WooCommerce/CRM** — gotowe do wdrożenia pod branding klienta.
 
 ## Featured open source
 
