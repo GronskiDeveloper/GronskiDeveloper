@@ -24,7 +24,11 @@ Rozszerzone materiały:
 
 ## Konfiguratory produktowe 3D — dema pokazowe
 
-Dziewięć w pełni funkcjonalnych **dem prezentujących mój warsztat** — każde to działający konfigurator, gotowy do dostosowania pod konkretną firmę. **Nowa firma (JDG od 05.2026), pierwsi klienci właśnie kwalifikowani** — jeśli szukasz konfiguratora dla swojej produkcji, pisz.
+Dziesięć w pełni funkcjonalnych **demonstratorów** — każdy to działający konfigurator otwierany w przeglądarce bez rejestracji, gotowy do dostosowania pod katalog i branding konkretnej firmy.
+
+**Wdrożenia produkcyjne:** portal B2B dla [Ustawnik.pl](https://ustawnik.pl) (Aravix s.c., Poznań) — sześć marek w katalogu, ceny hurtowe po zalogowaniu, koszyk zapytań ofertowych, kod na koncie klienta. Opinia **5,0 na [Clutch](https://clutch.co/profile/grodev)** w kategorii E-Commerce Development, weryfikowalna u źródła. [Pełne case study →](https://grodev.pl/blog/ustawnik-pl-portal-b2b-woocommerce-case-study)
+
+Konfiguratory poniżej to **moje własne demonstratory, nie wdrożenia u klientów** — buduję je po to, żeby mechanikę dało się sprawdzić przed pierwszą rozmową, a nie opisywać w ofercie.
 
 - 🏊 [basen3d.grodev.pl](https://basen3d.grodev.pl) — konfigurator basenów
 - 🚪 [brama3d.grodev.pl](https://brama3d.grodev.pl) — bramy segmentowe
@@ -33,8 +37,9 @@ Dziewięć w pełni funkcjonalnych **dem prezentujących mój warsztat** — ka�
 - 🌿 [oranzeria3d.grodev.pl](https://oranzeria3d.grodev.pl) — oranżerie ogrodowe
 - ☀️ [pergola3d.grodev.pl](https://pergola3d.grodev.pl) — pergole bioklimatyczne
 - 🧖 [sauna3d.grodev.pl](https://sauna3d.grodev.pl) — sauny ogrodowe
-- 🎪 [zadaszenie3d.grodev.pl](https://zadaszenie3d.grodev.pl) — zadaszenia tarasu
-- 🎯 [kasetony3d.grodev.pl](https://kasetony3d.grodev.pl) — kasetony reklamowe
+- 🪟 [scianka3d.grodev.pl](https://scianka3d.grodev.pl) — ścianki szklane loft
+- 🎪 [modularstudio.grodev.pl](https://modularstudio.grodev.pl) — stoiska targowe: mapa hali z 65 parcelami, rezerwacja na zegar, portal wystawcy, konsola organizatora z akceptacją projektów
+- 🏭 [factory3d.grodev.pl](https://factory3d.grodev.pl) — cela produkcyjna: **walidacja kolizji i stref bezpieczeństwa, symulacja wydajności, zestawienie materiałowe (BOM) z wyceną**
 
 Stack każdego demo: **Three.js + PWA + eksport do PDF/email + integracja WooCommerce/CRM** — gotowe do wdrożenia pod branding klienta.
 
@@ -63,7 +68,7 @@ Fragmenty stacku, którego używam w komercyjnych wdrożeniach — bierz i używ
 ## Kontakt
 
 🌍 **[grodev.pl](https://grodev.pl)**
-📧 dominik@grodev.pl
+📧 dominik.gronski@grodev.pl
 📞 +48 888 517 845
 📍 Poznań, PL — pracuję zdalnie w całej Polsce i EU
 
