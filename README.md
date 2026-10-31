@@ -25,7 +25,7 @@ Buduję z **Claude Code (Anthropic)** jako codziennym narzędziem, nie jako gad�
 
 ## Konfiguratory 3D: dziesięć działających demonstratorów
 
-Każdy to konfigurator otwierany w przeglądarce bez rejestracji, gotowy pod katalog i branding konkretnej firmy. Pełna lista z podglądami: **[grodev.pl/demo](https://grodev.pl/demo/)**. Dwa, które pokazują skalę:
+Każdy to osobny konfigurator pod własną subdomeną (baseny, pergole, sauny, ścianki szklane, bramy, opakowania, stoiska targowe, cela produkcyjna i inne), otwierany w przeglądarce bez rejestracji, gotowy pod katalog i branding konkretnej firmy. Wszystkie zebrane w jednym miejscu: **[grodev.pl/konfigurator-produktowy-3d](https://grodev.pl/konfigurator-produktowy-3d)**. Dwa, które pokazują skalę:
 
 - 🎪 **[modularstudio.grodev.pl](https://modularstudio.grodev.pl)** stoiska targowe: mapa hali z 65 parcelami, rezerwacja na zegar, portal wystawcy, konsola organizatora.
 - 🏭 **[factory3d.grodev.pl](https://factory3d.grodev.pl)** cela produkcyjna: walidacja kolizji i stref bezpieczeństwa, symulacja wydajności, zestawienie materiałowe (BOM) z wyceną.
