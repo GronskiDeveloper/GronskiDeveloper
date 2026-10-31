@@ -2,7 +2,7 @@
 
 Buduję **custom 3D product configurators** dla producentów, plus strony, sklepy i aplikacje na zamówienie pod marką **[GroDev](https://grodev.pl)**. Klient konfiguruje produkt robiony na wymiar, widzi go w 3D w przeglądarce i dostaje cenę liczoną na serwerze, nie zgadywaną w JavaScripcie.
 
-**Dowód, nie deklaracje:** wdrożony portal B2B dla [Ustawnik.pl](https://ustawnik.pl) (Aravix s.c., Poznań), ocena **5,0 na [Clutch](https://clutch.co/profile/grodev)** w E-Commerce Development, a strony konfiguratorów grodev.pl są dziś najczęściej cytowaną polską domeną w odpowiedziach AI na „konfigurator produktu 3D”. Od niedawna także po angielsku, niemiecku i niderlandzku, pod rynki DACH i Benelux.
+**Dowód, nie deklaracje:** wdrożony portal B2B dla [Ustawnik.pl](https://ustawnik.pl) (Aravix s.c., Poznań), ocena **5,0 na [Clutch](https://clutch.co/profile/grodev)** w E-Commerce Development, a strony konfiguratorów grodev.pl są regularnie cytowane w odpowiedziach AI na zapytania o konfigurator produktu 3D. Od niedawna także po angielsku, niemiecku i niderlandzku, pod rynki DACH i Benelux.
 
 ## Open source: fragmenty stacku, którego używam w komercyjnych wdrożeniach
 
